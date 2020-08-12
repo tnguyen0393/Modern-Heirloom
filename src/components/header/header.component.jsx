@@ -13,7 +13,7 @@ import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 import './header.styles.scss';
 
-const Header = ({ currentUser, hidden }) => (
+const Header = ({ currentUser, hidden, cartHidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <Logo className='logo' />

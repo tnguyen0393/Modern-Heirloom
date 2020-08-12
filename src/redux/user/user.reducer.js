@@ -13,7 +13,7 @@ const userReducer = (state = INITIAL_STATE, action) => {
       };
 
     default:
-      return state; //we want this because of none of the action tyoe match, we just want to return the state
+      return state; //we want this because of none of the action type match, we just want to return the state
   }
 };
 
